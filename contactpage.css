@@ -1,0 +1,88 @@
+body{
+   background-color: #333;
+}
+#header-top {
+   height: 40px;
+   background: #FF7C00;
+   color: #FFF;
+   line-height: 35px;
+   padding-left: 20px;
+   margin-top: 20px;
+}
+#header{
+   padding-left: 5px;
+   margin-top: 15px;
+   line-height: 10px;
+}
+#search{
+float: right;
+}
+label{
+   color: #FFF;
+}
+#f1{
+   width: 220px;
+   padding-right: 20px;
+   height:25px;
+}
+#searchbutton{
+   background-color: #FF7C00;
+   color: #FFF;
+   height: 25px;
+   width:60px;
+   cursor:pointer;
+}
+#selectbar{
+   width: 280px;
+   cursor: pointer;
+   margin-top: 10px;
+}
+#bar{
+   background-color: #FF7C00;
+   color: #FFF;
+   line-height: 40px;
+   margin-top: 15px;
+   border-radius: 8px;
+   padding-left: 8px;
+   cursor: pointer;
+   font-size: 20px;
+}
+#bar>a:hover{
+   background-color: #333;
+   height: 40px;
+}
+#bar>a{
+   padding: 15px;
+}
+.recenthead{
+   background: #FF7C00;
+   height: 30px;
+   border-radius:8px 8px 0 0;
+   color: #FFF;
+   font-size: 20px;
+   text-align: left;
+   padding-top: 9px;
+   padding-left: 20px;
+   margin-top: 10px;
+   width:75%;
+}
+.recent{
+
+   background-color: #1E262D;
+   padding: 8px;
+   padding-bottom: 20px;
+   border-right: solid;
+   border-left: solid;
+   border-bottom: solid;
+   border-radius: 0 0 8px 8px;
+   border-color: #FF7C00;
+   border-width: 2px;
+   color: aliceblue;
+   max-width: 75%;
+   overflow: auto;
+}
+#text{
+   text-align: left;
+   font-size: 17px;
+   float:left;
+}
